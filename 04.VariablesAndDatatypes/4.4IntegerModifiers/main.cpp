@@ -1,11 +1,17 @@
 #include <iostream>
 
-consteval int get_value(){
-    return 3;
-}
 
 int main(){
-    constexpr int value = get_value();
-    std::cout << "value : " << value << std::endl;
+
+
+    int value1 {10};
+    int value2 {-300};
+
+    std::cout << "value1 : " << value1 << std::endl;
+    std::cout << "value2 : " << value2 << std::endl;
+
+    std::cout << "size of value1: " << sizeof(value1) << std::endl;
+    std::cout << "size of value2: " << sizeof(value2) << std::endl;
+
     return 0;
 }
