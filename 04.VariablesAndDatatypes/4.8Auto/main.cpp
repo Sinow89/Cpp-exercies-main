@@ -13,7 +13,7 @@ int main(){
     auto var6 { 123u}; // unsigned
     auto var7 { 123ul}; //unsigned long
     auto var8 { 123ll}; // long long
-
+    
     std::cout << "var1 occupies : " << sizeof(var1) << " bytes" << std::endl;
     std::cout << "var2 occupies : " << sizeof(var2) << " bytes" << std::endl;
     std::cout << "var3 occupies : " << sizeof(var3) << " bytes" << std::endl;
@@ -24,4 +24,5 @@ int main(){
     std::cout << "var8 occupies : " << sizeof(var8) << " bytes" << std::endl;
    
     return 0;
+
 }
