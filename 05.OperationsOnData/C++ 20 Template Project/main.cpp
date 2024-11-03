@@ -1,11 +1,13 @@
 #include <iostream>
+#include <cmath>
 
-consteval int get_value(){
-    return 3;
-}
 
 int main(){
-    constexpr int value = get_value();
-    std::cout << "value : " << value << std::endl;
+
+   
+   double d {((3*sqrt(3))/2) * pow(6.7,2)}; 
+
+std::cout << d << std::endl; 
+
     return 0;
 }
