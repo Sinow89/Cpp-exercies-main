@@ -13,7 +13,7 @@ int main(){
 
     const float base = length * width;
 
-    std::cout   << "The base area is : "  << base ;
+    std::cout   << "The base area is : "  << base << std::endl;
     std::cout   << "The volume is : "     << (base*height)  << std::endl;
 
     return 0;
