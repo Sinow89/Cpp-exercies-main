@@ -1,8 +1,10 @@
 #include <iostream>
+#include <cmath>
 
 int main()
 {
 
+<<<<<<< Updated upstream
     //Literal types : u and l combinations for unsigned and long.
     unsigned char unsigned_char {53u};// 555U would fail because of narrowing
     
@@ -26,16 +28,16 @@ int main()
     signed long signed_long {44l};
     signed long int signed_long_int {44l};
     unsigned long int unsigned_long_int {555ul};
+=======
+int main(){
 
-    long long long_long {888ll};// 8 Bytes
-    long long int long_long_int {999ll};
-    signed long long signed_long_long {444ll};
-    signed long long int signed_long_long_int{1234ll};
-    
-    //Grouping Numbers : C++14 and onwards
-    unsigned int prize  {1'500'00'0u};
-    std::cout << "The prize is : " << prize << std::endl;
+   
+   double d {((3*sqrt(3))/2) * pow(6.7,2)}; 
+>>>>>>> Stashed changes
 
+std::cout << d << std::endl; 
+
+<<<<<<< Updated upstream
     std::cout << "signed_long_long_int" << signed_long_long_int << std::endl;
 
     // unsigned char distance {555u}; //Error [0~255]
@@ -78,5 +80,7 @@ int main()
     std::cout << "The fractional literal is : " << fractional_literal << std::endl;
     std::cout << "The string literal is : " << string_literal << std::endl;
 
+=======
+>>>>>>> Stashed changes
     return 0;
 }

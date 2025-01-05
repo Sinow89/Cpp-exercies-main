@@ -17,18 +17,16 @@ const constinit double weight {33.33};
 
 int main(){
 
-    //constinit double height{1.72};
-
     std::cout << "age : " << age << std::endl;
     std::cout << "age1 : " << age1 << std::endl;
     std::cout << "age2 : " << age2 << std::endl;
-    
+
     age =33; // Can change a const init variable
     std::cout << "age : " << age << std::endl;
-    
+
     //Combining const and constinit
     std::cout << "weight : " << weight << std::endl;
-    //weight = 44.44; // Compiler error
-    
+    // weight = 44.44; // Compiler error
+
     return 0;
 }
