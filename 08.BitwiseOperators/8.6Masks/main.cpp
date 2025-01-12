@@ -25,8 +25,6 @@ int main(){
     std::cout << std::setw(COLUMN_WIDTH) <<  "var : "
 		 << std::setw(COLUMN_WIDTH) << std::bitset<8>(var) << std::endl;
 
-
-
     //Set a few bits : make them 1's regardless of what's in there
 
 	//SETTING BITS
@@ -80,7 +78,7 @@ int main(){
 	//Check state of a bit
 	std::cout << std::endl;
 	std::cout << "Checking the state of each bit position (on/off)" << std::endl;
-	std::cout << "bit0 is " << ((var & mask_bit_0) >> 0 )<< std::endl;
+	std::cout << "bit0 is " << ((var & mask_bit_0) >> 0 ) << std::endl;
     std::cout << "bit1 is " << ((var & mask_bit_1) >> 1 ) << std::endl;
     std::cout << "bit2 is " << ((var & mask_bit_2) >> 2 ) << std::endl;
     std::cout << "bit3 is " << ((var & mask_bit_3) >> 3 ) << std::endl;

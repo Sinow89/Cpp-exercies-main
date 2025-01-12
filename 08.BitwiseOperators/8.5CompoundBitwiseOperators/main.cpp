@@ -2,8 +2,8 @@
 #include <iomanip>
 #include <bitset>
 
-
 int main(){
+
 
 	const int COLUMN_WIDTH {20};
 
@@ -27,6 +27,7 @@ int main(){
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(sandbox_var) << std::endl;
     std::cout << std::endl;
 
+    
 
     //Compound right shift
 	std::cout << std::endl;
@@ -62,11 +63,5 @@ int main(){
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(sandbox_var) << std::endl;
     std::cout << std::endl;
 
-
-   
-
-
-	
-    
-    return 0;
+       return 0;
 }
