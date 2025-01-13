@@ -22,15 +22,16 @@ int main(){
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(value1 & value2) << std::endl;
     std::cout << std::endl;
 
-
-    	std::cout << std::endl;
+	//OR
+	std::cout << std::endl;
 	std::cout << "Bitwise OR :  " << std::endl;
     std::cout << std::setw(COLUMN_WIDTH) << "value1 | value2 : "
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(value1 | value2) << std::endl;
     std::cout << std::endl;
 
 
-    	std::cout << std::endl;
+    //NOT
+	std::cout << std::endl;
     std::cout << "Bitwise NOT " << std::endl;
 	
     std::cout << std::setw(COLUMN_WIDTH) << "~value1 : "
@@ -47,11 +48,15 @@ int main(){
     std::cout << std::endl; 
 
 
-    	std::cout << std::endl;
+	//XOR
+	std::cout << std::endl;
 	std::cout << "Bitwise XOR :  " << std::endl;
     std::cout << std::setw(COLUMN_WIDTH) << "value1 ^ value2 : "
 		<< std::setw(COLUMN_WIDTH) << std::bitset<8>(value1 ^ value2) << std::endl;
     std::cout << std::endl;
 
+
+
+   
     return 0;
 }
