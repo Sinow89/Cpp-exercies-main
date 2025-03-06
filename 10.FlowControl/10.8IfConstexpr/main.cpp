@@ -3,7 +3,7 @@
 
 int main(){
    
-   constexpr bool condition {false};
+   constexpr bool condition {true};
 
    if constexpr (condition){
        std::cout << "Condition is true" << std::endl;
