@@ -21,7 +21,7 @@ void print_uppercase(){
 
 int main(){
 
-
+    std::cout << std::endl;
     print_uppercase();
 
     return 0;
